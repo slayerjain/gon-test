@@ -1,7 +1,8 @@
 # GoReleaser configuration
 
 archives:
-   format: zip
+  - 
+    format: zip
 
 builds:
   - binary: hello
