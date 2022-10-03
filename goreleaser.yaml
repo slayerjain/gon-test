@@ -19,7 +19,7 @@ builds:
       - arm64
   - binary: hello
     id: hello-macos
-    main: ./cmd/server/main.go
+    main: ./cmd/main.go
     env:
       - CGO_ENABLED=0
     goos:
