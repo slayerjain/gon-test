@@ -3,7 +3,7 @@
     "bundle_id" : "io.hello.server",
     "apple_id": {
         "username" : "shubhamkjain@outlook.com",
-        "password":  "ilcf-njnv-hdkp-hkdj"
+        "password":  "@env:APPLE_ACCOUNT_PASSWORD"
     },
     "sign" :{
         "application_identity" : "Developer ID Application: Shubham Jain"
