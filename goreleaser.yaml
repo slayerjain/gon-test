@@ -33,14 +33,14 @@ universal_binaries:
   # ID of resulting universal binary.
   #
   # Defaults to the project name.
-  id: keploy-mac-universal
+  id: hello-mac-universal
 
   # IDs to use to filter the built binaries.
   #
   # Defaults to the `id` field.
   # Since: v1.3.
   ids:
-  - keploy-macos
+  - hello-macos
 
   # Whether to remove the previous single-arch binaries from the artifact list.
   # If left as false, your end release might have both several macOS archives:
