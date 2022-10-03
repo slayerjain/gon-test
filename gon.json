@@ -1,5 +1,5 @@
 {
-    "source" : ["./dist/hello-macos_darwin_amd64_v1/hello", "./dist/hello-macos_darwin_arm64/hello"],
+    "source" : ["./dist/hello-mac-universal_darwin_all/gon-test"],
     "bundle_id" : "io.hello.server",
     "apple_id": {
         "username" : "shubhamkjain@outlook.com",
