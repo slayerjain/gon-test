@@ -31,7 +31,7 @@ builds:
 signs:
   - signature: "${artifact}.zip"
     ids:
-    - hello-mac-universal # here we filter the macos only build id
+    - hello-macos # here we filter the macos only build id
     # you'll need to have gon on PATH
     cmd: gon
     # you can follow the gon docs to properly create the gon.hcl config file:
