@@ -5,18 +5,18 @@ archives:
     format: zip
 
 builds:
-  - binary: hello
-    id: hello
-    main: ./cmd/main.go
-    env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-      - windows
-    goarch:
-      - amd64
-      - 386
-      - arm64
+  # - binary: hello
+  #   id: hello
+  #   main: ./cmd/main.go
+  #   env:
+  #     - CGO_ENABLED=0
+  #   goos:
+  #     - linux
+  #     - windows
+  #   goarch:
+  #     - amd64
+  #     - 386
+  #     - arm64
   - binary: hello
     id: hello-macos
     main: ./cmd/main.go
@@ -28,7 +28,7 @@ builds:
       - amd64
       - arm64
     hooks:
-      post: gon gon.json
+      post: gon -log-level=info -log-json ./gon.json
 
 # signs:
 #   - signature: "${artifact}.zip"
