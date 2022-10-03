@@ -27,8 +27,6 @@ builds:
     goarch:
       - amd64
       - arm64
-    hooks:
-      post: gon -log-level=info -log-json ./gon.json
 
 universal_binaries:
 -
