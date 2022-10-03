@@ -38,5 +38,5 @@ signs:
     # https://github.com/mitchellh/gon
     args:
     - gon.json
-    artifacts: all
+    artifacts: archive
 
