@@ -2,7 +2,7 @@
 
 archives:
   - 
-    format: zip
+    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
 
 builds:
   # - binary: hello
